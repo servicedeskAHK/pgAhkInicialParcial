@@ -23,7 +23,7 @@ export default function Home() {
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
           
           <div className="col" style={{margin: '0px 0px 20px 0px'}}>
-            <a href="https://parcial-associados.cs66.force.com/ahksp">
+            <a href="https://associadoahkbrasil.force.com/ahksp">
               <div className={styles.containerOverlay}>
                 <Image src="/sp.png" className={styles.image}  alt="AHK" width="800px" height="1000px"/> 
                 <div className={styles.overlay}>                
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
 
           <div className="col" style={{margin: '0px 0px 20px 0px'}}>
-            <a href="https://parcial-associados.cs66.force.com/ahkrj">
+            <a href="https://associadoahkbrasil.force.com/ahkrj">
               <div className={styles.containerOverlay}>
                 <Image src="/rj.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>
                 <div className={styles.overlay}>                
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
 
           <div className="col" style={{margin: '0px 0px 20px 0px'}}>    
-            <a href="https://parcial-associados.cs66.force.com/ahkpoa">   
+            <a href="https://associadoahkbrasil.force.com/ahkpoa">   
               <div className={styles.containerOverlay}>
                 <Image src="/poa.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>              
                 <div className={styles.overlay}>                
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
 
           <div className="col" style={{margin: '0px 0px 20px 0px'}}>
-            <a href="https://parcial-associados.cs66.force.com/ahkpr">  
+            <a href="https://associadoahkbrasil.force.com/ahkpr">  
               <div className={styles.containerOverlay}>
                 <Image src="/cur.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>
                 <div className={styles.overlay}>                
