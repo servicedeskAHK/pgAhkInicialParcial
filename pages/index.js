@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <> 
       <header>
+        
         <div className="navbar navbar-dark bg-dark shadow-sm" >
           <div className="container" >
             <a href="#" className="navbar-brand d-flex align-items-center">
@@ -15,9 +16,16 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <section className="py-3 text-center container">
-        
-      </section>
+      
+      <div className="px-3 py-3 my-5 text-center">
+        <h1 className="display-5 fw-bold">Seja bem-vindo a comunidade online da Câmara Brasil-Alemanha!</h1>
+        <div className="col-lg-6 mx-auto">
+          <p className="lead mb-4">Selecione a cidade em que sua empresa é associada e realize o login.
+</p>
+         
+        </div>
+      </div>
+    
 
       <div style={{margin: '0px 20px 0px 20px', height: "100%"}}>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
@@ -73,12 +81,7 @@ export default function Home() {
       </div>
       
       <footer className="text-muted py-5">
-      <div className="d-flex justify-content-end">
-            <a href="https://www.instagram.com/ahkbrasil/"><img className={styles.footer_image} src="/instagram.png" /></a>
-            <a href="https://www.linkedin.com/company/ahkbrasil/"><img className={styles.footer_image} src="/linkedin.png" /></a>            
-            <a href="https://www.youtube.com/channel/UCDdSnLH1FuLCiXFEjBOJy7A"><img className={styles.footer_image} src="/youtube.png" /></a>            
-            <a href="https://t.me/joinchat/Q1WYhRiwei7aNgJhWlM3UA"><img className={styles.footer_image} src="/telegram.png" /></a>
-          </div>
+     
       <hr></hr>
         <div className="container text-center">
         
